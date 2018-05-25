@@ -7,9 +7,9 @@
 	$test = "0";
 
 	// Data for text message. This is the text message data.
-	$sender = "TickValue"; // This is who the message appears to be from.
-	$numbers = "94721997655, 94"; // A single number or a comma-seperated list of numbers
-	$message = "There we go";
+	$sender = "Vingi"; // This is who the message appears to be from.
+	$numbers = "94721997655"; // A single number or a comma-seperated list of numbers
+	$message = "Hi baba";
 	// 612 chars or less
 	// A single number or a comma-seperated list of numbers
 	$message = urlencode($message);
