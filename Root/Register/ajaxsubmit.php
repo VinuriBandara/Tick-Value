@@ -98,7 +98,7 @@ $sql="insert into form_element(fname,lname,email,contact,username,password) valu
 
  if($conn -> query($sql))
 {
-	echo"Record inserted";
+	echo"Record succesfully inserted";
 }
 else
 {
