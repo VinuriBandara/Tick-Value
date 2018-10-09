@@ -78,7 +78,7 @@ $result=mysqli_query($conn,"INSERT INTO user(username,password,email)VALUES('$us
  if($result){
   echo "Registration Success.Unique Username is:<font color=green><b>$username</b></font><br>";
  }else{
-  echo "Sorry Failed to Registration.Try Again";
+  echo "Sorry Failed to Registration.";
  }
 
 
